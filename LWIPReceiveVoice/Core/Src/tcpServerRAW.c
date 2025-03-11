@@ -278,7 +278,7 @@ static err_t tcp_server_recv(void *arg, struct tcp_pcb *tpcb, struct pbuf *p,
 		    	first_pack=1;
 			}else{
 				server_index+=direction;
-				while(server_index-wav_index>6*direction){
+				while(server_index-wav_index>1){
 					HAL_Delay(5);
 				}
 				send_information(s);
