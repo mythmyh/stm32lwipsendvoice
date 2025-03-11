@@ -1,0 +1,4 @@
+usb_host.c:72:16:ETX_MSC_ProcessUsbDevice	8480	static
+usb_host.c:164:6:MX_USB_HOST_Init	8	static
+usb_host.c:191:6:MX_USB_HOST_Process	8	static
+usb_host.c:199:13:USBH_UserProcess	16	static
